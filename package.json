@@ -1,12 +1,14 @@
 {
-  "name": "react-native-lightbox",
-  "version": "0.6.0",
+  "name": "react-native-light-box",
+  "version": "0.6.1",
   "description": "Images etc in Full Screen Lightbox Popovers for React Native",
   "main": "Lightbox.js",
   "scripts": {
     "test": "flow check"
   },
   "keywords": [
+    "planxyz",
+    "plan xyz",
     "react-native",
     "react-component",
     "react-native-component",
@@ -21,14 +23,30 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://oblador@github.com/oblador/react-native-lightbox.git"
+    "url": "https://github.com/planxyz/react-native-light-box"
   },
-  "author": "Joel Arvidsson <joel@oblador.se>",
+  "author": {
+    "email": "melvyn@plan.xyz",
+    "name": "Melvyn Kim",
+    "url": "https://github.com/oblador/react-native-light-box"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oblador/react-native-lightbox/issues"
+    "url": "https://github.com/planxyz/react-native-light-box/issues"
   },
-  "homepage": "https://github.com/oblador/react-native-lightbox",
+  "contributors": [
+    {
+      "email": "joel@oblador.se",
+      "name": "Joel Arvidsson",
+      "url": "https://github.com/oblador/react-native-lightbox"
+    },
+    {
+      "email": "dinhthuong02@gmail.com",
+      "name": "Thuong Tong Dinh",
+      "url": "https://github.com/namlongsoft"
+    }
+  ],
+  "homepage": "https://github.com/planxyz/react-native-light-box",
   "dependencies": {
     "react-timer-mixin": "^0.13.3"
   }
