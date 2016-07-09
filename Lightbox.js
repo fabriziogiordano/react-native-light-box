@@ -3,17 +3,12 @@
  */
 'use strict';
 
-var React = require('react');
-var {
-  Children,
-  cloneElement,
-  PropTypes,
-} = React;
-var {
+import React, { Children, cloneElement, PropTypes }  from 'react';
+import {
   Animated,
   TouchableHighlight,
   View,
-} = require('react-native');
+} from 'react-native';
 var TimerMixin = require('react-timer-mixin');
 
 var LightboxOverlay = require('./LightboxOverlay');
