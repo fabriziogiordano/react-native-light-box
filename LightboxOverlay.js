@@ -128,8 +128,11 @@ var LightboxOverlay = React.createClass({
   close: function() {
     StatusBar.setHidden(false, 'fade');
     this.setState({
-      isAnimating: true,
+      isAnimating: false,
     });
+    this.state.openVal.setValue(0);
+    this.props.onClose();
+    /*
     Animated.spring(
       this.state.openVal,
       { toValue: 0, ...this.props.springConfig }
@@ -138,7 +141,7 @@ var LightboxOverlay = React.createClass({
         isAnimating: false,
       });
       this.props.onClose();
-    });
+    });*/
   },
 
   componentWillReceiveProps: function(props) {
