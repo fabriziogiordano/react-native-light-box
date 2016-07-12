@@ -1,6 +1,6 @@
 {
   "name": "react-native-light-box",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Lightbox scene transition for React Native http://plan.xyz",
   "main": "Lightbox.js",
   "scripts": {
